@@ -12,6 +12,17 @@ Certifique-se de ter os seguintes itens instalados em sua máquina:
     - pip (instalador de pacotes Python)
     - tensorflow 2.12
 
+## Especificações do Servidor
+
+O modelo foi executado em um servidor AWS g6.8xlarge com as seguintes especificações:
+
+    vCPUs: 32
+    Memória: 128 GB
+    GPUs: 4 NVIDIA T4 Tensor Core GPUs
+    Armazenamento: SSD baseado em NVMe
+    Largura de banda de rede: Até 25 Gbps
+
+Essas especificações proporcionaram o ambiente necessário para realizar o treinamento intensivo do modelo de deep learning com eficiência.
 
 ## Resultados
 
